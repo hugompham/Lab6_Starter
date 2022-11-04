@@ -98,7 +98,6 @@ function initFormHandler() {
     arr.push(recipeObject);
     saveRecipesToStorage(arr);
   }
-
   // B10. TODO - Get a reference to the "Clear Local Storage" button
   const clear = document.getElementsByClassName("danger")[0];
   //console.log('hello: ', clear)
